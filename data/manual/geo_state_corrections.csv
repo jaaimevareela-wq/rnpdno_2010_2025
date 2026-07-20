@@ -1,0 +1,27 @@
+source_id_estado,raw_municipio,target_cve_estado,target_cve_mun,notes
+02,DURANGO,10,005,RNPDNO reportó BC; municipio único en Durango
+03,LEÓN,11,020,RNPDNO reportó BCS; León es de Guanajuato
+04,PUEBLA,21,114,RNPDNO reportó Campeche; Puebla capital
+08,CANANEA,26,019,RNPDNO reportó Chihuahua; Cananea es Sonora
+09,TIZAYUCA,13,069,RNPDNO reportó CDMX; Tizayuca es Hidalgo
+09,TIJUANA,02,004,RNPDNO reportó CDMX; Tijuana es Baja California
+09,TLAJOMULCO DE ZÚÑIGA,14,097,RNPDNO reportó CDMX; Tlajomulco es Jalisco
+10,CHIHUAHUA,08,019,RNPDNO reportó Durango; Chihuahua capital
+10,GUADALAJARA,14,039,RNPDNO reportó Durango; Guadalajara es Jalisco
+10,SINALOA,25,017,RNPDNO reportó Durango; municipio Sinaloa
+10,TRINCHERAS,26,064,RNPDNO reportó Durango; Trincheras es Sonora
+10,ZACATECAS,32,056,RNPDNO reportó Durango; Zacatecas capital
+14,AGUASCALIENTES,01,001,RNPDNO reportó Jalisco; Aguascalientes capital
+15,IZTAPALAPA,09,007,RNPDNO reportó Edomex; Iztapalapa es CDMX
+15,PUERTO VALLARTA,14,067,RNPDNO reportó Edomex; Puerto Vallarta es Jalisco
+16,SANTA CRUZ DE JUVENTINO ROSAS,11,035,RNPDNO reportó Michoacán; es Guanajuato
+18,PUERTO VALLARTA,14,067,RNPDNO reportó Nayarit; Puerto Vallarta es Jalisco
+18,TIJUANA,02,004,RNPDNO reportó Nayarit; Tijuana es Baja California
+21,MALTRATA,30,099,RNPDNO reportó Puebla; Maltrata es Veracruz
+22,CHIHUAHUA,08,019,RNPDNO reportó Querétaro; Chihuahua capital
+23,CAMPECHE,04,002,RNPDNO reportó Quintana Roo; Campeche capital
+25,NOGALES,26,043,RNPDNO reportó Sinaloa; Nogales es Sonora
+30,SAN JUAN BAUTISTA TUXTEPEC,20,184,RNPDNO reportó Veracruz; Tuxtepec es Oaxaca
+30,TAMPICO,28,038,RNPDNO reportó Veracruz; Tampico es Tamaulipas
+31,CAMPECHE,04,002,RNPDNO reportó Yucatán; Campeche capital
+33,XALAPA,30,087,Estado desconocido; Xalapa es Veracruz
