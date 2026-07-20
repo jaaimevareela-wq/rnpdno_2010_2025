@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.env
+*.log
+~$*
+.tfm_extract.txt
+output/.mplconfig/
+
+# Datos regenerables / pesados (no subir a GitHub)
+data/por_*.csv
+data/totales_*.csv
+data/processed/
+data/panel/
+data/external/raw/
+data/external/geo/entidades_federativas.geojson
+
+# Mantener plantillas y manuales
+!data/manual/
+!data/external/*.csv
+!data/external/geo/entidades_federativas_simplificado.geojson
+!data/external/.gitkeep
+
+# Salidas grandes opcionales (sí versionamos tablas ligeras en output/tables)
+# Si el repo crece mucho, ignora también:
+# output/figures/
+
+# Salidas técnicas ML (locales; no necesarias para consulta pública)
+output/figures/ml_*.png
+output/figures/atlas_mapa_predicho_*.png
+output/figures/atlas_mapa_prob_*.png
+output/figures/atlas_riesgo_*.png
+output/tables/ml_*
+output/tables/comision_sensibilidad_*
+analysis/README.md
+~$*
+*.tmp
+
+# TFM editorial (local; no necesario para reproducir el pipeline)
+docs/tfm/
+docs/metodologia_tfm.md
+docs/variables_tfm.md
+docs/Borrador*.docx
+docs/capitulo_*.md
+docs/indice_tfm.md
+docs/revision_borrador*.md
+.tfm_extract.txt

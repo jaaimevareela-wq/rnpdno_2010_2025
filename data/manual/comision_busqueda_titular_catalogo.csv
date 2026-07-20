@@ -1,0 +1,33 @@
+cve_estado,estado,anio_primer_titular,fecha_nombramiento,nombre_titular,confianza,fuente,notas
+01,AGUASCALIENTES,2020,2020-07-17,Juan Antonio Hernández Organista,alta,NW Noticias 2020-07-17,Comisión creada jun 2020; nombramiento jul 2020
+02,BAJA CALIFORNIA,2019,,Juan Manuel León Martínez,media,Puntonorte/Proceso 2019,Titular desde instalación 2019; decreto abr 2018 sin titular inmediato
+03,BAJA CALIFORNIA SUR,2020,,,baja,CNB/ODIM 2020,Decreto oct 2019; año estimado de primer titular documentado ~2020
+04,CAMPECHE,2021,,,baja,La Jornada/Economista 2020-08,Sin titular ago 2020; solo delegados
+05,COAHUILA,2018,2018-12-18,Ricardo Loyola Martínez,alta,ODIM/UNAM 2020 Tabla 3,
+06,COLIMA,2019,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto mar 2019; año de nombramiento no verificado en fuente primaria
+07,CHIAPAS,2020,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto oct 2019; titular estimado 2020
+08,CHIHUAHUA,2019,2019-04-01,Laura Irene Moreno Espinoza,alta,ODIM/UNAM 2020 Tabla 3,Provisional abr 2019; definitivo jul 2019
+09,CIUDAD DE MEXICO,2019,2019-06-20,Fernando Elizondo García,alta,ODIM/UNAM 2020 Tabla 3,
+10,DURANGO,2019,,Edgar Alán Arroyo,media,Economista 2020-08,Nombrado 2019; renunció y quedó acefala en 2020
+11,GUANAJUATO,2020,2020-07-03,Héctor Alonso Díaz Ezquerra,alta,Milenio/Jornada 2020-07,
+12,GUERRERO,2018,2018-06,Caritino Santiago Morales,alta,Quadratin/Suriana 2018,Reemplazado abr 2019; primer titular jun 2018
+13,HIDALGO,2019,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto mar 2019
+14,JALISCO,2018,2018-04-24,Juan Carlos Benítez Suárez,alta,Decreto Jalisco 2018,Encargado de despacho al crear la comisión
+15,ESTADO DE MEXICO,2018,2018-06-05,Ma. Sol Berenice Salgado Ambros,alta,ODIM/UNAM 2020 Tabla 3,
+16,MICHOACAN,2019,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto may 2019
+17,MORELOS,2019,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto jun 2019
+18,NAYARIT,2018,,,media,Quadratin 2018-10-09,Comisionado presente en instalación SNB oct 2018; fecha exacta no hallada
+19,NUEVO LEON,2018,2018-05-22,Ma. de la Luz Balderas Rodríguez,alta,ODIM/UNAM 2020 Tabla 3,
+20,OAXACA,2021,2021-06-22,Edilberta Cruz Regino,alta,Heraldo/Quadratin 2021-06-22,Último estado en nombrar titular (2021)
+21,PUEBLA,2019,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto jun 2019
+22,QUERETARO,2018,,,media,CNB informe 2018 / Jornada 2019-01-31,Listado entre estados con presidente designado ene 2019
+23,QUINTANA ROO,2020,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto oct 2019
+24,SAN LUIS POTOSI,2018,2018-07-09,Jesús Juárez Hernández,alta,Frontal Noticias 2018,Funciones desde 10-ago-2018
+25,SINALOA,2019,,Víctor Manuel Pérez López,media,Noroeste 2022,Sinaloa desde 2019; primer titular ~2019
+26,SONORA,2020,2020-02,José Luis González Olivaría,alta,Heraldo 2023 (renuncia ago 2022),En funciones desde feb 2020
+27,TABASCO,2019,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto jun 2019
+28,TAMAULIPAS,2020,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto oct 2019
+29,TLAXCALA,2019,,,baja,ODIM/UNAM 2020 Tabla 1,Decreto mar 2019
+30,VERACRUZ,2019,2019-02-18,Geiser Manuel Caso Molinari,alta,Billie Parker Noticias 2019-02-18,
+31,YUCATAN,2022,2022-05-09,Karla Patricia Quintal Solís,alta,PNT/Yucatán vía Lado.mx 2024,Encargada ago 2020; titular formal may 2022
+32,ZACATECAS,2019,2019-01,Javier Ramírez García,media,Economista 2020-08,Nombrado ene 2019; removido y quedó vacante en 2020

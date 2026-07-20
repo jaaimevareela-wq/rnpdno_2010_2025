@@ -1,0 +1,2 @@
+CVEGEO,CVE_ENT,NOM_ENT,CVE_MUN,NOM_MUN
+# Placeholder — se regenera con: python3 cruzar_municipios.py --descargar-catalogo
