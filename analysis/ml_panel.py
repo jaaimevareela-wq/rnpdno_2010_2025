@@ -368,14 +368,14 @@ def figure_importances(df_imp: pd.DataFrame, path: Path) -> None:
 def figure_heatmap(df: pd.DataFrame, path: Path) -> None:
     import matplotlib.pyplot as plt
 
-    from plot_style import apply_tfm_style, risk_cmap, save_figure
+    from plot_style import apply_tfm_style, sequential_cmap, save_figure
 
     apply_tfm_style()
     pivot = df.pivot_table(index="estado", columns="anio", values="tasa_desap_100k", aggfunc="first")
     order = pivot.mean(axis=1).sort_values(ascending=False).index
     pivot = pivot.loc[order]
     fig, ax = plt.subplots(figsize=(14, 10))
-    im = ax.imshow(pivot.to_numpy(), aspect="auto", cmap=risk_cmap())
+    im = ax.imshow(pivot.to_numpy(), aspect="auto", cmap=sequential_cmap())
     ax.set_xticks(range(len(pivot.columns)), labels=pivot.columns.astype(int), rotation=45, ha="right")
     ax.set_yticks(range(len(pivot.index)), labels=pivot.index, fontsize=7)
     ax.set_title("Tasa de desaparición/no localización (por 100k) — entidad × año")
