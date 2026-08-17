@@ -99,11 +99,7 @@ def figura_edad(agg: dict[tuple[int, str], int]) -> None:
 
         sys.path.insert(0, str(ROOT / "analysis"))
         from plot_style import (
-            AZUL_CENTENARIO,
-            AZUL_CLARO,
-            GRIS_ALUMINIO,
-            ROJO_UGR,
-            ROJO_VITOR,
+            EDAD_BAND_COLORS,
             apply_tfm_style,
             save_figure,
             style_axes,
@@ -114,14 +110,7 @@ def figura_edad(agg: dict[tuple[int, str], int]) -> None:
 
     apply_tfm_style()
     years = sorted({a for a, _ in agg})
-    colors = {
-        "0-17": AZUL_CLARO,
-        "18-29": AZUL_CENTENARIO,
-        "30-44": ROJO_UGR,
-        "45-59": ROJO_VITOR,
-        "60+": GRIS_ALUMINIO,
-        "Sin edad": "#B0B0B0",
-    }
+    colors = EDAD_BAND_COLORS
     # Excluir "Sin edad" del apilado principal si es residual; incluirlo
     bands_plot = [b for b in BAND_ORDER if b != "Sin edad"]
     bottoms = [0.0] * len(years)
