@@ -349,7 +349,14 @@ def figure_importances(df_imp: pd.DataFrame, path: Path) -> None:
     from plot_style import BARRAS_IMPORTANCIA, apply_tfm_style, save_figure, style_axes
 
     apply_tfm_style()
-    for pref in ("xgboost", "gradient_boosting", "random_forest", "logit_sklearn"):
+    # El atlas y el Cap. 4 seleccionan el bosque aleatorio; SHAP va en figura aparte (XGBoost).
+    etiquetas = {
+        "random_forest": "bosque aleatorio",
+        "xgboost": "xgboost",
+        "gradient_boosting": "potenciado de gradiente",
+        "logit_sklearn": "regresión logística",
+    }
+    for pref in ("random_forest", "xgboost", "gradient_boosting", "logit_sklearn"):
         sub = df_imp[df_imp["modelo"] == pref]
         if not sub.empty:
             break
@@ -358,7 +365,7 @@ def figure_importances(df_imp: pd.DataFrame, path: Path) -> None:
     sub = sub.sort_values("importancia", ascending=True)
     fig, ax = plt.subplots(figsize=(8, 5))
     ax.barh(sub["variable"], sub["importancia"], color=BARRAS_IMPORTANCIA, height=0.65)
-    ax.set_title(f"Importancia de variables — {pref}")
+    ax.set_title(f"Importancia de variables — {etiquetas[pref]}")
     ax.set_xlabel("Importancia")
     style_axes(ax, grid_y=False, grid_x=True)
     save_figure(fig, path)
